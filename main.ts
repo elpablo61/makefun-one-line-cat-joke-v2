@@ -6,6 +6,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const LINE =
+  // 142 characters: inside the 1–200 gate, with room to spare.
   "My cat only drinks from my glass. I bought him a fountain, a bowl, a $40 ceramic dish. He drinks from my glass. I drink from the fountain now.";
 
 const here = dirname(fileURLToPath(import.meta.url));
